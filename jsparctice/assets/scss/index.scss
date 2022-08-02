@@ -1,0 +1,40 @@
+.container {
+    .introimg {
+        width: 100%;
+        height: 360px;
+        background-image: url(https://64.media.tumblr.com/f63e31c1fb3e313ab6a1692a293afe92/d3d09bb64c630067-47/s640x960/ee79aa9117ec5a7943aec85739decc019ceb1d42.jpg);
+        background-position: center;
+    }
+
+    .row {
+        margin-top: 30px;
+
+        .card {
+            border: none;
+
+            .imagewrapper {
+                height: 180px;
+                background-image: url(https://meteamedia.org/wp-content/uploads/2022/01/DAWN-FM-GRAPHIC-900x675.png);
+                background-size: cover;
+                background-position: center;
+            }
+
+            .text {
+                padding: 9px;
+
+                h1 {
+                    font-style: italic;
+                    font-size: 16px;
+                }
+
+                span {
+                    color: chocolate;
+                    display: flex;
+                    justify-content: end;
+
+                }
+            }
+
+        }
+    }
+}
